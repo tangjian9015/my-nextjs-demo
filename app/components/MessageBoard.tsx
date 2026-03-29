@@ -80,7 +80,7 @@ export default function MessageBoard() {
       <h2>📝 留言板</h2>
       
       {error && <div className="error">{error}</div>}
-      <div>GA_ID:{process.env.NEXT_PUBLIC_GA_ID || 'Not set'}</div>
+
       <div className="messages">
         {messages.length === 0 ? (
           <div className="empty-messages">
