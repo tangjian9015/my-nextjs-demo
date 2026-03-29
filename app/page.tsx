@@ -2,6 +2,9 @@
 import MessageBoard from './components/MessageBoard'
 
 export default function Home() {
+ console.log('Base TEST_XXX_XXX:', process.env.TEST_XXX_XXX);
+ console.log('Base TEST_XXX_XXX2:', process.env.TEST_XXX_XXX2);
+
   return (
     <>
       <div className="hero">
