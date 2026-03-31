@@ -12,14 +12,14 @@ interface Message {
 let messages: Message[] = [
   {
     id: 1,
-    text: '欢迎来到 Next.js 演示项目！🎉',
+    text: '欢迎来到Easy Note！🎉',
     timestamp: new Date().toISOString(),
   },
-  {
-    id: 2,
-    text: '这个留言板展示了 Next.js 的 API 路由和客户端组件交互',
-    timestamp: new Date(Date.now() - 3600000).toISOString(),
-  },
+  // {
+  //   id: 2,
+  //   text: '这个留言板展示了 Next.js 的 API 路由和客户端组件交互',
+  //   timestamp: new Date(Date.now() - 3600000).toISOString(),
+  // },
 ]
 
 let nextId = 3

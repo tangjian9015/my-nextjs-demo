@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <nav className="navbar">
           <div className="nav-container">
-            <Link href="/" className="logo">Next.js Demo</Link>
+            <Link href="/" className="logo">Easy Note</Link>
             <div className="nav-links">
               <Link href="/" className="nav-link">首页</Link>
               <Link href="/about" className="nav-link">关于</Link>
