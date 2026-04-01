@@ -1,8 +1,4 @@
-
-
-# Next.js 演示项目
-
-这是一个使用 Next.js 14 构建的完整演示项目，展示了现代 Next.js 应用的核心功能。
+# Easy Note 一个简单的记事本Next.js项目
 
 ## 🚀 快速开始
 
@@ -23,4 +19,3 @@ bash
 npm run build
 npm start
 
-# my-nextjs-demo
