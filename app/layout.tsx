@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Next.js Demo - 留言板',
-  description: '一个简单的Next.js演示项目，包含留言板功能',
+  title: 'Easy Note - 留言板',
+  description: '一个简单的留言板功能',
 }
 
 export default function RootLayout({
